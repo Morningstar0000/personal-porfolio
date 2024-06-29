@@ -1,0 +1,183 @@
+
+.portbtn{
+   padding: 50px 50px 30px 50px;
+   button{
+      color: #b5b3ad;
+      background-color: #2a2a28;
+      padding-inline: 20px;
+      border: none;
+   }
+}
+
+   .ctglist{
+      display: flex;
+      list-style-type: none;
+      margin-right: 80px;
+      
+      li{
+         margin-left: 40px;
+      }
+   }
+
+
+// for Tablet
+@media (max-width: 769px) {
+   .ctglist{
+      flex-wrap: wrap;
+      margin-right: 0px;
+      margin-left: 0px;
+      max-width: 500px;
+      justify-content: center;
+      margin-left: 80px;
+      li{
+         margin-left: 40px;
+      }
+   }
+}
+// for mobile phone
+@media (max-width: 426px) {
+   .ctglist{
+      flex-wrap: wrap;
+      margin-right: 0px;
+      margin-left: 0px;
+      
+      li{
+         margin-left: 20px;
+         
+      }
+   }
+}
+
+.portfolio-title{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   min-width: 1099px; 
+   box-sizing: border-box;
+   padding: 0px 50px 0px 50px; 
+   h4{
+      color: #eeeeec;
+      font-weight: 800;
+      font-size: 30px;
+      font-family: Montserrat, sans-serif;
+   }
+}
+// for small laptop
+@media (max-width: 1025px) {
+   .portfolio-title{
+      min-width: 500px;
+   }
+}
+// for Tablet
+@media (max-width: 769px) {
+   .portfolio-title{
+      flex-direction: column;
+      padding: 0px 50px 0px 50px;
+      min-width: 320px;
+     .ctg{
+      margin-left: 0px;
+     }
+   }
+}
+// for Mobile Phone
+@media (max-width: 426px) {
+   .portfolio-title{
+      h4{
+         font-size: 25px;
+         padding-bottom: 20px;
+      }
+     .ctg{
+      margin-left: -50px;
+     }
+   }
+}
+
+
+.gridPorfolio{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 50px;
+   column-gap: 80px;
+   padding: 50px 20px 30px 50px;
+   img{
+         max-width: 320px;
+         height: 320px;
+         object-fit: cover;
+      }
+}
+// for small laptop
+@media (max-width: 1023px) {
+   .gridPorfolio{
+      column-gap: 30px;
+   }
+}
+// for Tablet
+@media (max-width: 769px) {
+   .gridPorfolio{
+      padding: 50px 50px 50px 50px;
+      column-gap: 40px;
+      img{
+         max-width: 300px;
+         height: 300px;
+      }
+   }
+}
+// for Mobile Phone
+// @media (max-width: 426px) {
+//    .gridPorfolio{
+//       padding: 50px 20px 30px 50px;
+//       // column-gap: 0px;
+//       img{
+//          max-width: 320px;
+//          height: 320px;
+//       }
+//    }
+// }
+@media (max-width: 376px) {
+   .gridPorfolio{
+      padding: 50px 20px 50px 40px;
+      // column-gap: 0px;
+      img{
+         max-width: 300px;
+         height: 300px;
+      }
+   }
+}
+// for small Mobile Phone
+@media (max-width: 321px) {
+
+   .portbtn{
+   padding: 50px 50px 30px 30px;
+}
+   .portfolio-title{
+       padding: 0px 50px 0px 30px; 
+      h4{
+         font-size: 20px;
+         padding-bottom: 20px;
+      }
+     .ctg{
+      margin-left: -50px;
+       li{
+         margin-left: 50px;
+         
+      }
+     }
+   }
+
+   .gridPorfolio{
+      padding: 50px 20px 50px 30px;
+      // gap: 4
+      img{
+         max-width: 250px;
+         height: 250px;
+      }
+   }
+}
+
+.Tippycontent{
+   font-size: 20px;
+   font-weight: bold;
+   background-color: azure;
+   padding: 10px;
+}
