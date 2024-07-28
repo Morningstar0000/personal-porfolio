@@ -16,7 +16,7 @@ const OtherSkills = [
 function About() {
     return (
         <>
-            <div >
+            <div id="fadeInUp-animation">
                 <div className="Abtbtn">
                     <button>About</button>
                     <h4>About Me</h4>
@@ -24,7 +24,7 @@ function About() {
 
                 <div className="AboutMe">
                     <div className="img-container">
-                    <img src="About02.jpeg" alt="AbtImg" className="Abtimg" />
+                    <img src="/personal-porfolio/About02.jpeg" alt="AbtImg" className="Abtimg" />
                     </div>
                     
                     <div>

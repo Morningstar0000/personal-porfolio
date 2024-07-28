@@ -13,7 +13,7 @@ export const ServData = [
       "Web development is the most famous job in the world and it is very interesting",
     src: "https://images.unsplash.com/photo-1700769025506-6c3dcb9ec9b7?q=80&w=1664&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     num: "02",
-    id: 0,
+    id: 1,
   },
   {
     title: "Branding Identity",
@@ -21,7 +21,7 @@ export const ServData = [
       "Web development is the most famous job in the world and it is very interesting",
     src: "https://images.unsplash.com/photo-1700839154423-83ea2246621b?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     num: "03",
-    id: 0,
+    id: 2,
   },
   {
     title: "Live Chat",
@@ -29,7 +29,7 @@ export const ServData = [
       "Web development is the most famous job in the world and it is very interesting",
     src: "https://images.unsplash.com/photo-1682695797221-8164ff1fafc9?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     num: "04",
-    id: 0,
+    id: 3,
   },
   {
     title: "Graphics Design",
@@ -37,7 +37,7 @@ export const ServData = [
       "Web development is the most famous job in the world and it is very interesting",
     src: "https://images.unsplash.com/photo-1700770845346-7e95de335eb0?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     num: "05",
-    id: 0,
+    id: 4,
   },
   {
     title: "After Effects",
@@ -45,7 +45,7 @@ export const ServData = [
       "Web development is the most famous job in the world and it is very interesting",
     src: "https://images.unsplash.com/photo-1700744228339-03c725f5ee57?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     num: "06",
-    id: 0,
+    id: 5,
   },
 ];
 export const description =

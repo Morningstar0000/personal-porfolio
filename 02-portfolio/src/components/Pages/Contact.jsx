@@ -5,7 +5,7 @@ function Contact() {
     return (
         <>
             <div style={{ width: "100%" }}>
-                <div className='contact'>
+                <div id="fadeInUp-animation" className='contact'>
                     <button style={{marginBottom:"20px"}}>Contact</button>
                     <h3>Get In Touch</h3>
                     {/* map */}

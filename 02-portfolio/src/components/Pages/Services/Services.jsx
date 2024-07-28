@@ -9,8 +9,8 @@ import Servicedetails from "./Servicedetails";
 function Services() {
   return (
     <>
-      <div>
-        <div className="Servicebtn">
+      <div id="fadeInUp-animation">
+        <div  className="Servicebtn">
           <button>Services</button>
           <h3 style={{ paddingTop:"20px"}}>What I Do</h3>
         </div>

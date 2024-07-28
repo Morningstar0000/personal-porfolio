@@ -6,13 +6,13 @@ import { faTwitter, faFacebook, faInstagram } from '@fortawesome/free-brands-svg
 function Home() {
     return (
         <>
-            <div className="Home">
+            <div id="fadeInUp-animation" className="Home">
                 <div className="homeArticles">
                     <h1>Creative Developer </h1>
                 </div>
 
                 <div className="homeImg">
-                    <img src="morningstar02.png" alt="myimage" className="myimage" />
+                    <img src="/personal-porfolio/morningstar02.png" alt="myimage" className="myimage" />
                 </div>
                 <div className="social-box">
                 <div className="social-links">

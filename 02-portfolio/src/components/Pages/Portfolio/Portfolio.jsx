@@ -19,7 +19,7 @@ function Portfolio() {
 
   return (
     <>
-      <div>
+      <div id="fadeInUp-animation">
         <div className="portbtn">
           <button >Porfolio</button>
         </div>

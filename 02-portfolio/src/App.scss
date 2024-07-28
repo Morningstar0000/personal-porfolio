@@ -15,6 +15,20 @@ $purple-a9: #5c00adb1;
   --sand-12: #eeeeec;
 }
 
+@keyframes fadeInUp {
+  0% {
+    // transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+#fadeInUp-animation {
+  animation: 1.4s fadeInUp;
+}
 
 .App {
   display: flex;
@@ -26,9 +40,9 @@ $purple-a9: #5c00adb1;
 @media (max-width: 1026px) {
   .App {
     display: block;
+
   }
 }
-
 
 
 /* Sidebar styles */

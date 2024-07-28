@@ -9,16 +9,25 @@
    }
 }
 
-   .ctglist{
-      display: flex;
-      list-style-type: none;
-      margin-right: 80px;
-      
-      li{
-         margin-left: 40px;
-      }
+.ctglist {
+   display: flex;
+   list-style-type: none;
+   margin-right: 80px;
+ 
+   li {
+     margin-left: 40px;
+     cursor: pointer;
+ 
+     &:hover {
+       color: #b5b3ad; /* Optional: Hover color */
+       border-bottom: 3px solid #b5b3ad;
+     }
+ 
+     &.active {
+       border-bottom: 3px solid #b5b3ad; /* Active state */
+     }
    }
-
+ }
 
 // for Tablet
 @media (max-width: 769px) {
@@ -98,7 +107,7 @@
    flex-direction: row;
    flex-wrap: wrap;
    gap: 50px;
-   column-gap: 80px;
+   column-gap: 30px;
    padding: 50px 20px 30px 50px;
    img{
          max-width: 320px;

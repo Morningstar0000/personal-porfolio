@@ -27,13 +27,15 @@ function App() {
  
   <SideBar collapsed={collapsed} toggleSidebar={toggleSidebar} />
       <MobileNavbar />
-        <Routes>
+      
+        <Routes >
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='services' element={<Services />} />
           <Route path='portfolio' element={<Portfolio />} />
           <Route path='contact' element={<Contact />} />
         </Routes>
+       
     </div>
    
     </>
