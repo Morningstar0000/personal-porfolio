@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+    "node": ">=14.0.0",
+
   "scripts": {
     "prebuild": "echo $PATH",
     "dev": "vite",
