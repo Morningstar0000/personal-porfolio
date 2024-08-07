@@ -85,6 +85,11 @@ export function MobileNavbar() {
         setMobileSidebarOpen(!MobileSidebarOpen);
     };
 
+    const closeMobileSidebar = () => {
+        setMobileSidebarOpen(false);
+    };
+
+
     return (
         <>
             {/* Mobile navbar */}
@@ -116,23 +121,23 @@ export function MobileNavbar() {
                             },
                         }} >
                             <div className='menulist'>
-                        <MenuItem component={<Link to="/" className='Link' />} className={`menu ${location.pathname === '/' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faHouse} className='MenuIcons' />}>
+                        <MenuItem component={<Link to="/" className='Link' onClick={closeMobileSidebar} />} className={`menu ${location.pathname === '/' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faHouse} className='MenuIcons' />}>
                             Home
                         </MenuItem>
 
-                        <MenuItem component={<Link to="/about" className='Link' />} className={`menu ${location.pathname === '/about' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faUser} className='MenuIcons' />}>
+                        <MenuItem component={<Link to="/about" className='Link' onClick={closeMobileSidebar} />} className={`menu ${location.pathname === '/about' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faUser} className='MenuIcons' />}>
                             About
                         </MenuItem>
 
-                        <MenuItem component={<Link to="/services" className='Link' />} className={`menu ${location.pathname === '/services' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faClipboardCheck} className='MenuIcons' />}>
+                        <MenuItem component={<Link to="/services" className='Link' onClick={closeMobileSidebar} />} className={`menu ${location.pathname === '/services' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faClipboardCheck} className='MenuIcons' />}>
                             Service
                         </MenuItem>
 
-                        <MenuItem component={<Link to="/portfolio" className='Link' />} className={`menu ${location.pathname === '/portfolio' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faBriefcase} className='MenuIcons' />}>
+                        <MenuItem component={<Link to="/portfolio" className='Link' onClick={closeMobileSidebar} />} className={`menu ${location.pathname === '/portfolio' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faBriefcase} className='MenuIcons' />}>
                             Portfolio
                         </MenuItem>
 
-                        <MenuItem component={<Link to="/contact" className='Link' />} className={`menu ${location.pathname === '/contact' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faEnvelope} className='MenuIcons' />}>
+                        <MenuItem component={<Link to="/contact" className='Link' onClick={closeMobileSidebar} />} className={`menu ${location.pathname === '/contact' ? 'active' : ''}`} icon={<FontAwesomeIcon icon={faEnvelope} className='MenuIcons' />}>
                             Contact
                         </MenuItem>
                         </div>
